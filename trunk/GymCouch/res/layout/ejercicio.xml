@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/ejercicioLayout" android:weightSum="1">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/txtTitle" android:layout_marginTop="10dp"></TextView>
+    <ImageView android:src="@drawable/icon" android:layout_width="300dp" android:layout_gravity="center_horizontal" android:layout_height="300dp" android:id="@+id/imgEjercicio" android:layout_marginTop="10dp"></ImageView>
+    <TextView android:text="TextView" android:id="@+id/txtDescripcion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/txtInvolucrados"></TextView>
+  </LinearLayout>
+</ScrollView>
+
