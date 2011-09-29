@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GymCouch!</string>
+    <string name="app_name">GymCouch</string>
+    
+    <string name="lblSalir">Salir</string>
+    <string name="lblAcercaDe">AcercaDe</string>
+    <string name="lblContacto">Contacto</string>
+    <string name="lblConfigurar">Configurar</string>
+    <string name="lblUnidades">Unidades: </string>
+    <string name="lblKilos">Kilos</string>
+    <string name="lblLibras">Libras</string>
+    <string name="lblAutoplay">Autoplay: </string>
+    <string name="lblVolumen">Volumen: </string>
+    <string name="lblOn">On</string>
+    <string name="lblOff">Off</string>
+    <string name="lblPerfil">Perfil</string>
+    <string name="lblEjercicios">Ejercicios</string>
+    <string name="lblAgregar">Agregar perfil</string>
+    
+    <string name="txtContacto">
+      Para contactarnos en twitter con @hiposai o con @diego_gurrus; via mail al 
+      \ned.pimentel.f@gmail.com o gurrusquietaqda@gmail.com. 
+    </string>
+    
+    <string name="txtAcercaDe">
+      GymCouch es una aplicación que tiene como finalidad ayudar al usuario a que haga un mejor y mayor uso del gimnasio. Que tenga un mejor desempeño en este, asi como mejores resultados.
+      \n
+      \nLos ejercicios y la informacion sobre los musculos son investigaciones hechas por los mismos creadores. Alguna queja o sugerencia no dude en contactarnos.
+    </string>
+    
+    <string name="lblBiceps">Biceps</string>
+    
+    <string name="lblTriceps">Triceps</string>
+</resources>

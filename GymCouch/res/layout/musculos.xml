@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/musculosLayout" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/musculosFila1" android:layout_gravity="center_horizontal">
+            <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/columnaFila11" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lblBiceps" android:id="@+id/txtBiceps"></TextView>
+                <ImageButton android:src="@drawable/biceps" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnBiceps"></ImageButton>
+            </LinearLayout>
+            <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/columnaFila12" android:layout_width="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lblTriceps" android:id="@+id/txtTriceps" android:layout_gravity="center_horizontal"></TextView>
+                <ImageButton android:src="@drawable/triceps" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnTriceps" android:layout_gravity="center_horizontal"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

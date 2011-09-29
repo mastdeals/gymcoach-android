@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuConfigurar" android:title="@string/lblConfigurar" android:icon="@android:drawable/ic_menu_manage"></item>
+    <item android:id="@+id/menuAcercaDe" android:title="@string/lblAcercaDe" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/menuContacto" android:title="@string/lblContacto" android:icon="@android:drawable/ic_menu_help"></item>
+    <item android:title="@string/lblSalir" android:id="@+id/menuSalir" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+</menu>
