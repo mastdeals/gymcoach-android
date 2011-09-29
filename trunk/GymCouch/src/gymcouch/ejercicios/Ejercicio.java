@@ -1,7 +1,6 @@
 package gymcouch.ejercicios;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import gymcouch.main.R;
@@ -20,7 +19,7 @@ public class Ejercicio extends Activity{
 		TextView ejercicioTitle = (TextView)findViewById(R.id.txtTitle);
 		ImageView ejercicioImg = (ImageView)findViewById(R.id.imgEjercicio);
 		TextView ejercicioDescripcion = (TextView)findViewById(R.id.txtDescripcion);
-		TextView ejercicioInvolucrados = (TextView)findViewById(R.id.txtInvolucrados);
+		TextView ejercicioNota = (TextView)findViewById(R.id.txtNota);
 		
 		String ejercicioStr = getIntent().getExtras().get("ejercicioSeleccionado").toString();
 		int ejercicioImgId = getResources().getIdentifier(trimAll(ejercicioStr).toLowerCase(), "drawable", getBaseContext().getPackageName());
@@ -33,10 +32,10 @@ public class Ejercicio extends Activity{
 			BufferedReader entrada = new BufferedReader(new InputStreamReader(getResources().openRawResource(ejercicioDescripcionId)));
 			
 			String descripcion = entrada.readLine();
-			String involucrados = entrada.readLine();
+			String nota = entrada.readLine();
 			
-			ejercicioInvolucrados.setText(involucrados);
-			ejercicioDescripcion.setText(descripcion);			
+			ejercicioDescripcion.setText(descripcion);
+			ejercicioNota.setText(nota);
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
