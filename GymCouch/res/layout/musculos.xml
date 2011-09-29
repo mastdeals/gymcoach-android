@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView 
   xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-    <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/musculosLayout" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
-        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/musculosFila1" android:layout_gravity="center_horizontal">
-            <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/columnaFila11" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+    <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/musculosLayout" android:layout_gravity="center_horizontal" android:layout_width="wrap_content">
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/musculosFila1">
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila11">
                 <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lblBiceps" android:id="@+id/txtBiceps"></TextView>
-                <ImageButton android:src="@drawable/biceps" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnBiceps"></ImageButton>
+                <ImageButton android:src="@drawable/biceps" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/ibtnBiceps" android:layout_width="wrap_content"></ImageButton>
             </LinearLayout>
-            <LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/columnaFila12" android:layout_width="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
-                <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lblTriceps" android:id="@+id/txtTriceps" android:layout_gravity="center_horizontal"></TextView>
-                <ImageButton android:src="@drawable/triceps" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnTriceps" android:layout_gravity="center_horizontal"></ImageButton>
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila12">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lblTriceps" android:id="@+id/txtTriceps"></TextView>
+                <ImageButton android:src="@drawable/triceps" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/ibtnTriceps" android:layout_width="wrap_content"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/musculosFila2">
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila21">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtPectorales" android:text="@string/lblPectorales"></TextView>
+                <ImageButton android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/pectorales" android:id="@+id/ibtnPectorales"></ImageButton>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila22">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtTrapecio" android:text="@string/lblTrapecio"></TextView>
+                <ImageButton android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnTrapecio" android:src="@drawable/trapecio"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/musculosFila3">
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila31">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtDeltoide" android:text="@string/lblDeltoide"></TextView>
+                <ImageButton android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnDeltoide" android:src="@drawable/deltoide"></ImageButton>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila32">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtAbdomen" android:text="@string/lblAbdomen"></TextView>
+                <ImageButton android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnAbdomen" android:src="@drawable/abdomen"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/musculosFila4">
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila41">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtCuadriceps" android:text="@string/lblCuadriceps"></TextView>
+                <ImageButton android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnCuadriceps" android:src="@drawable/cuadriceps"></ImageButton>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp" android:layout_height="fill_parent" android:layout_marginRight="12dp" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:id="@+id/columnaFila42">
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtPantorrilla" android:text="@string/lblPantorrilla"></TextView>
+                <ImageButton android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ibtnPantorrilla" android:src="@drawable/pantorrilla"></ImageButton>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

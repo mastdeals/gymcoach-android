@@ -31,7 +31,11 @@
 		</activity>
 		<activity android:name="gymcouch.musculos.Musculos"
 				  android:theme="@android:style/Theme"
-				  android:label="@string/lblEjercicios">
+				  android:label="@string/lblMusculos">
+		</activity>
+		<activity android:name="gymcouch.musculos.Musculo"
+				  android:theme="@android:style/Theme"
+				  android:label="@string/lblMusculos">
 		</activity>
     </application>
 </manifest>

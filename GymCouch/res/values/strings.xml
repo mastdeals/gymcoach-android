@@ -16,8 +16,16 @@
     <string name="lblOff">Off</string>
     <string name="lblPerfil">Perfil</string>
     <string name="lblEjercicios">Ejercicios</string>
+    <string name="lblMusculos">Musculos</string>
     <string name="lblAgregar">Agregar perfil</string>
-    
+     <string name="lblBiceps">Biceps</string>
+    <string name="lblTriceps">Triceps</string>   
+    <string name="lblPectorales">Pectorales</string>    
+    <string name="lblTrapecio">Trapecio</string>   
+    <string name="lblDeltoide">Deltoide</string>   
+    <string name="lblAbdomen">Abdomen</string>    
+    <string name="lblCuadriceps">Cuadriceps</string>    
+    <string name="lblPantorrilla">Pantorrilla</string>   
     <string name="txtContacto">
       Para contactarnos en twitter con @hiposai o con @diego_gurrus; via mail al 
       \ned.pimentel.f@gmail.com o gurrusquietaqda@gmail.com. 
@@ -29,7 +37,4 @@
       \nLos ejercicios y la informacion sobre los musculos son investigaciones hechas por los mismos creadores. Alguna queja o sugerencia no dude en contactarnos.
     </string>
     
-    <string name="lblBiceps">Biceps</string>
-    
-    <string name="lblTriceps">Triceps</string>
 </resources>
