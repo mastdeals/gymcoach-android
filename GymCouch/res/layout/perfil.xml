@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/perfilLayout" android:layout_width="500dp">
-    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/agregarLayout">
-        <ImageButton android:layout_height="wrap_content" android:id="@+id/imageButton1" android:background="@drawable/background" android:layout_width="50dp" android:src="@drawable/create_contact"></ImageButton>
-        <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblAgregar" android:layout_gravity="center_vertical"></TextView>
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:id="@+id/perfilLayout" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:background="@drawable/avatar">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/rutinaLayout" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_marginTop="330dp">
+        <ImageButton android:src="@drawable/ver_rutina" android:background="@drawable/background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:id="@+id/ibtnRutina"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/editarLayout" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/editar_perfil" android:background="@drawable/background" android:id="@+id/ibtnEditarPerfil" android:layout_marginRight="10dp"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ir_a_menu" android:background="@drawable/background" android:id="@+id/ibtnIrAMenu"></ImageButton>
     </LinearLayout>
     
 </LinearLayout>
