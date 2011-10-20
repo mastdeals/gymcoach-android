@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/agregarPerfilLayout" android:layout_marginLeft="10dp">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/nombreLayout" android:layout_marginTop="10dp" android:layout_marginLeft="10dp">
+        <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblNombre"></TextView>
+        <EditText android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textPersonName" android:id="@+id/etNombreEP">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblFechaNac" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"></TextView>
+    <DatePicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/dpFechaNacEP"></DatePicker>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="10dp" android:id="@+id/estatura_pesoLayout" android:layout_marginLeft="10dp">
+        <TextView android:id="@+id/textView3" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblEstatura"></TextView>
+        <EditText android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="numberDecimal" android:layout_marginRight="10dp" android:text="0.0" android:maxWidth="50dp" android:id="@+id/etEstaturaEP"></EditText>
+        <TextView android:text="@string/lblPeso" android:id="@+id/textView4" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_weight="1" android:inputType="numberDecimal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0" android:maxWidth="50dp" android:id="@+id/etPesoEP"></EditText>
+    </LinearLayout>
+    <TextView android:text="@string/lblObjetivo" android:id="@+id/textView5" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"></TextView>
+    <Spinner android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="10dp" android:id="@+id/spObjetivoEP"></Spinner>
+    <Button android:text="@string/lblListo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_gravity="center_horizontal" android:id="@+id/btnListoEP"></Button>
+    <TextView android:text="@string/lblObligatorios" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="50dp"></TextView>
+    
+</LinearLayout>

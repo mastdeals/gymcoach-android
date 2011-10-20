@@ -1,39 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="gymcouch.main"
+      package="gymcoach.main"
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="7" />
 
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".GymCouch"
+    <application android:label="@string/app_name" android:icon="@drawable/gymcoachicon">
+        <activity android:name=".Splash"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GymCoach"
+				  android:theme="@android:style/Theme"
+				  android:label="@string/app_name">
+		</activity>
         <activity android:name=".Configurar"
 				  android:theme="@android:style/Theme.Dialog"
 				  android:label="@string/lblConfigurar">
 		</activity>
-		<activity android:name="gymcouch.perfil.Perfil"
+		<activity android:name="gymcoach.perfil.Perfiles"
 				  android:theme="@android:style/Theme.Dialog"
+				  android:label="@string/lblPerfiles">
+		</activity>
+		<activity android:name="gymcoach.perfil.AgregarPerfil"
+				  android:theme="@android:style/Theme"
+				  android:label="@string/lblAgregarPerfil">
+		</activity>
+		<activity android:name="gymcoach.perfil.Perfil"
+				  android:theme="@android:style/Theme"
 				  android:label="@string/lblPerfil">
 		</activity>
-		<activity android:name="gymcouch.ejercicios.Ejercicios"
+		<activity android:name="gymcoach.perfil.Rutina"
+				  android:theme="@android:style/Theme"
+				  android:label="@string/lblRutina">
+		</activity>
+		<activity android:name="gymcoach.perfil.EditarPerfil"
+				  android:theme="@android:style/Theme"
+				  android:label="@string/lblEditarPerfil">
+		</activity>
+		<activity android:name="gymcoach.ejercicios.Ejercicios"
 				  android:theme="@android:style/Theme.Dialog"
 				  android:label="@string/lblEjercicios">
 		</activity>
-		<activity android:name="gymcouch.ejercicios.Ejercicio"
+		<activity android:name="gymcoach.ejercicios.Ejercicio"
 				  android:theme="@android:style/Theme"
 				  android:label="@string/lblEjercicios">
 		</activity>
-		<activity android:name="gymcouch.musculos.Musculos"
+		<activity android:name="gymcoach.musculos.Musculos"
 				  android:theme="@android:style/Theme"
 				  android:label="@string/lblMusculos">
 		</activity>
-		<activity android:name="gymcouch.musculos.Musculo"
+		<activity android:name="gymcoach.musculos.Musculo"
 				  android:theme="@android:style/Theme"
 				  android:label="@string/lblMusculos">
 		</activity>

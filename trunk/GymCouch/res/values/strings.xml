@@ -1,40 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, GymCouch!</string>
-    <string name="app_name">GymCouch</string>
+    <string name="hello">Hello World, GymCoach!</string>
+    
+    <string name="app_name">GymCoach</string>
     
     <string name="lblSalir">Salir</string>
+    
     <string name="lblAcercaDe">AcercaDe</string>
+    
     <string name="lblContacto">Contacto</string>
+    
     <string name="lblConfigurar">Configurar</string>
+    
     <string name="lblUnidades">Unidades: </string>
+    
     <string name="lblKilos">Kilos</string>
+    
     <string name="lblLibras">Libras</string>
+    
     <string name="lblAutoplay">Autoplay: </string>
+    
     <string name="lblVolumen">Volumen: </string>
+    
     <string name="lblOn">On</string>
+    
     <string name="lblOff">Off</string>
+    
+    <string name="lblPerfiles">Perfiles</string>
+    
+    <string name="lblAgregarPerfil">Agregar Perfil</string>
+    
     <string name="lblPerfil">Perfil</string>
+    
     <string name="lblEjercicios">Ejercicios</string>
+    
     <string name="lblMusculos">Musculos</string>
+    
     <string name="lblAgregar">Agregar perfil</string>
+    
      <string name="lblBiceps">Biceps</string>
-    <string name="lblTriceps">Triceps</string>   
-    <string name="lblPectorales">Pectorales</string>    
-    <string name="lblTrapecio">Trapecio</string>   
-    <string name="lblDeltoide">Deltoide</string>   
+     
+    <string name="lblTriceps">Triceps</string>
+       
+    <string name="lblPectorales">Pectorales</string>
+        
+    <string name="lblTrapecio">Trapecio</string> 
+      
+    <string name="lblDeltoide">Deltoide</string>  
+     
     <string name="lblAbdomen">Abdomen</string>    
-    <string name="lblCuadriceps">Cuadriceps</string>    
-    <string name="lblPantorrilla">Pantorrilla</string>   
+    
+    <string name="lblCuadriceps">Cuadriceps</string> 
+       
+    <string name="lblPantorrilla">Pantorrilla</string> 
+      
     <string name="txtContacto">
       Para contactarnos en twitter con @hiposai o con @diego_gurrus; via mail al 
       \ned.pimentel.f@gmail.com o gurrusquietaqda@gmail.com. 
     </string>
     
     <string name="txtAcercaDe">
-      GymCouch es una aplicación que tiene como finalidad ayudar al usuario a que haga un mejor y mayor uso del gimnasio. Que tenga un mejor desempeño en este, asi como mejores resultados.
+      GymCoach es una aplicación que tiene como finalidad ayudar al usuario a que haga un mejor y mayor uso del gimnasio. Que tenga un mejor desempeño en este, asi como mejores resultados.
       \n
       \nLos ejercicios y la informacion sobre los musculos son investigaciones hechas por los mismos creadores. Alguna queja o sugerencia no dude en contactarnos.
     </string>
+    
+    <string name="lblNombre">Nombre*</string>
+    
+    <string name="lblFechaNac">Fecha de Nacimiento*</string>
+    
+    <string name="lblListo">Listo</string>
+    
+    <string name="lblLimpiar">Limpiar</string>
+    
+    <string name="lblEstatura">Estatura*</string>
+    
+    <string name="lblPeso">Peso*</string>
+    
+    <string name="lblObjetivo">Objetivo*</string>
+    
+    <string name="lblObligatorios">*Campos obligatorios</string>
+    
+    <string name="lblEditarPerfil">Editar Perfil</string>
+    
+    <string name="lblRutina">Rutina</string>
+    
+    <string name="lblRegresar">Regresar</string>
+    
+    <string name="lblNuevaRutina">Nueva Rutina</string>
     
 </resources>

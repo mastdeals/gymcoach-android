@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/perfilesLayout" android:layout_width="fill_parent">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/agregarLayout" android:layout_width="wrap_content" android:layout_marginRight="10dp">
+        <ImageButton android:layout_height="wrap_content" android:id="@+id/ibtnAgregar" android:background="@drawable/background" android:layout_width="50dp" android:src="@drawable/create_contact"></ImageButton>
+        <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblAgregar" android:layout_gravity="center_vertical" android:layout_marginRight="10dp"></TextView>
+    </LinearLayout>
+    
+  </LinearLayout>
+</ScrollView>
